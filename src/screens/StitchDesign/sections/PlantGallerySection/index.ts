@@ -1,0 +1,1 @@
+export { PlantGallerySection } from "./PlantGallerySection";
