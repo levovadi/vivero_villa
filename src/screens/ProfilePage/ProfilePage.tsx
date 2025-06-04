@@ -9,17 +9,17 @@ export const ProfilePage = (): JSX.Element => {
     {
       section: "Account",
       items: [
-        { label: "Personal Information", link: "#" },
-        { label: "Payment Methods", link: "#" },
-        { label: "Shipping Addresses", link: "#" },
-        { label: "Notifications", link: "#" },
+        { label: "Información Personal", link: "#" },
+        { label: "Metodos de Pago", link: "#" },
+        { label: "Dirección de envío", link: "#" },
+        { label: "Notificaciones", link: "#" },
       ],
     },
     {
-      section: "Support",
+      section: "Soporte",
       items: [
-        { label: "Help Center", link: "#" },
-        { label: "Contact Us", link: "#" },
+        { label: "Centro de Ayuda", link: "#" },
+        { label: "Contactanos", link: "#" },
       ],
     },
   ];
@@ -33,7 +33,7 @@ export const ProfilePage = (): JSX.Element => {
         >
           <ArrowLeft className="h-6 w-6" />
         </button>
-        <h1 className="flex-1 text-center font-bold text-lg">Profile</h1>
+        <h1 className="flex-1 text-center font-bold text-lg">Perfil</h1>
       </header>
 
       <div className="p-6 space-y-6">
@@ -43,8 +43,8 @@ export const ProfilePage = (): JSX.Element => {
             alt="Profile"
             className="w-24 h-24 rounded-full object-cover"
           />
-          <h2 className="text-xl font-bold">Sophia Green</h2>
-          <p className="text-[#639154]">San Francisco, CA</p>
+          <h2 className="text-xl font-bold">Sonia Uc</h2>
+          <p className="text-[#639154]">México, Mex</p>
         </div>
 
         <div className="space-y-6">

@@ -63,7 +63,7 @@ export const CartPage = (): JSX.Element => {
         >
           <ArrowLeft className="h-6 w-6" />
         </button>
-        <h1 className="flex-1 text-center font-bold text-lg">Cart</h1>
+        <h1 className="flex-1 text-center font-bold text-lg">Carrito de Compras</h1>
       </header>
 
       <div className="flex-1 p-4">
@@ -104,14 +104,14 @@ export const CartPage = (): JSX.Element => {
 
       <div className="p-4 space-y-2">
         <Button className="w-full bg-[#639154] hover:bg-[#4a7340] text-white font-medium py-6">
-          Checkout
+          Confirmar
         </Button>
         <Button
           variant="outline"
           className="w-full bg-[#eaf2e8] border-none hover:bg-[#d9e8d6] text-[#11190f] font-medium py-6"
           onClick={() => navigate("/")}
         >
-          Continue Shopping
+          Continuar Comprando
         </Button>
       </div>
     </div>

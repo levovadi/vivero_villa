@@ -1,15 +1,15 @@
 import React from "react";
-import { ArrowLeft, MapPin, Clock, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import { ArrowLeft, MapPin, Clock, Phone, Mail, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 export const ContactPage = (): JSX.Element => {
   const navigate = useNavigate();
 
   const contactInfo = {
-    address: "1234 Green Leaf Lane, Anytown, USA",
-    hours: "Mon-Fri: 9am-5pm, Sat: 10am-4pm",
+    address: "1234 Avenida principal, Estado de México, Progreso Industrial",
+    hours: "Lunes-Viernes: 9am-5pm, Sábado: 10am-4pm",
     phone: "(555) 123-4567",
-    email: "info@greenleafnursery.com"
+    email: "info@viverovilla.com"
   };
 
   const handleAction = (type: string) => {
@@ -32,6 +32,8 @@ export const ContactPage = (): JSX.Element => {
       case 'twitter':
         window.open('https://twitter.com/greenleafnursery', '_blank');
         break;
+      case 'youtube':
+        window.open('https://youtube.com/@germinandoideastv?si=xj4t8U5PbmjCtk8I', '_blank')
     }
   };
 
@@ -44,12 +46,12 @@ export const ContactPage = (): JSX.Element => {
         >
           <ArrowLeft className="h-6 w-6" />
         </button>
-        <h1 className="flex-1 text-center font-bold text-lg">Contact</h1>
+        <h1 className="flex-1 text-center font-bold text-lg">Contacto</h1>
       </header>
 
       <div className="p-6 space-y-8">
         <section>
-          <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
+          <h2 className="text-2xl font-bold mb-4">Información de Contacto</h2>
           <div className="space-y-4">
             <button
               onClick={() => handleAction('address')}
@@ -59,7 +61,7 @@ export const ContactPage = (): JSX.Element => {
                 <MapPin className="h-6 w-6 text-[#639154]" />
               </div>
               <div className="text-left">
-                <h3 className="font-bold">Address</h3>
+                <h3 className="font-bold">Dirección</h3>
                 <p className="text-[#639154]">{contactInfo.address}</p>
               </div>
             </button>
@@ -69,7 +71,7 @@ export const ContactPage = (): JSX.Element => {
                 <Clock className="h-6 w-6 text-[#639154]" />
               </div>
               <div>
-                <h3 className="font-bold">Hours</h3>
+                <h3 className="font-bold">Horas</h3>
                 <p className="text-[#639154]">{contactInfo.hours}</p>
               </div>
             </div>
@@ -82,7 +84,7 @@ export const ContactPage = (): JSX.Element => {
                 <Phone className="h-6 w-6 text-[#639154]" />
               </div>
               <div className="text-left">
-                <h3 className="font-bold">Phone</h3>
+                <h3 className="font-bold">Telefono</h3>
                 <p className="text-[#639154]">{contactInfo.phone}</p>
               </div>
             </button>
@@ -95,7 +97,7 @@ export const ContactPage = (): JSX.Element => {
                 <Mail className="h-6 w-6 text-[#639154]" />
               </div>
               <div className="text-left">
-                <h3 className="font-bold">Email</h3>
+                <h3 className="font-bold">Correo</h3>
                 <p className="text-[#639154]">{contactInfo.email}</p>
               </div>
             </button>
@@ -133,6 +135,16 @@ export const ContactPage = (): JSX.Element => {
                 <Twitter className="h-6 w-6 text-[#639154]" />
               </div>
               <span className="font-bold">Twitter</span>
+            </button>
+
+            <button
+              onClick={() => handleAction('youtube')}
+              className="flex items-center gap-4 p-4 bg-[#f9f9f9] rounded-xl w-full"
+            >
+              <div className="bg-[#eaf2e8] p-3 rounded-xl">
+                <Youtube className="h-6 w-6 text-[#639154]" />
+              </div>
+              <span className="font-bold">Youtube</span>
             </button>
           </div>
         </section>

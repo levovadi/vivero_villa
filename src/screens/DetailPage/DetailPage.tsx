@@ -67,6 +67,144 @@ const plants: { [key: string]: Plant } = {
       likes: 12,
       dislikes: 1
     }
+  },
+  "snake-plant": {
+    id: "snake-plant",
+    name: "Monstera Deliciosa",
+    image: "/depth-5--frame-0-2.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
+  },
+  "zz-plant": {
+    id: "zzplant",
+    name: "Zamioculcas",
+    image: "/depth-5--frame-0-3.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
+  },
+  "peace-lily": {
+    id: "peace-lily",
+    name: "Monstera Deliciosa",
+    image: "/depth-5--frame-0-4.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
+  },
+  "calathea": {
+    id: "calathea",
+    name: "Monstera Deliciosa",
+    image: "/depth-5--frame-0-5.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
+  },
+  "pothos": {
+    id: "pothos",
+    name: "pothos",
+    image: "..//depth-5--frame-0-6.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
+  },
+  "spider-plant": {
+    id: "spider-plant",
+    name: "Monstera Deliciosa",
+    image: "..//depth-5--frame-0-7.png",
+    description: "The Monstera Deliciosa, also known as the Swiss Cheese Plant, is famous for its distinctive split leaves. It's a tropical plant that adds a dramatic touch to any space.",
+    rating: 4.7,
+    reviews: 95,
+    reviewDistribution: {
+      5: 45,
+      4: 35,
+      3: 10,
+      2: 7,
+      1: 3
+    },
+    latestReview: {
+      author: "James Wilson",
+      date: "2 weeks ago",
+      rating: 5,
+      comment: "Beautiful plant! Growing well and the leaves are stunning. Very happy with my purchase.",
+      likes: 12,
+      dislikes: 1
+    }
   }
 };
 
